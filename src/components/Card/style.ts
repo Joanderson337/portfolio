@@ -16,7 +16,7 @@ export const Container = styled.div<IContainer>`
 
   background-color: ${({ theme }) => theme.BLACK_200};
   border-radius: 1rem;
-  border-bottom: 2rem solid ${({ theme, bd }) => theme[bd]};
+  border-bottom: 2rem solid ${({ theme, bd }: any) => theme[bd]};
 `
 
 export const Wrapper = styled.div<IWrapper>`
@@ -27,7 +27,7 @@ export const Wrapper = styled.div<IWrapper>`
   width: 8rem;
   height: 8rem;
 
-  background-color: ${({ theme, bg }) => theme[bg]};
+  background-color: ${({ theme, bg }: any) => theme[bg]};
   border-radius: 50%;
 
   display: flex;

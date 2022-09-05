@@ -10,8 +10,8 @@ export const Container = styled.div<ITag>`
   align-items: center;
   justify-content: center;
 
-  background-color: ${({ theme, bg }) => theme[bg]};
-  border: 0.2rem solid ${({ theme, bd }) => theme[bd]};
+  background-color: ${({ theme, bg }: any) => theme[bg]};
+  border: 0.2rem solid ${({ theme, bd }: any) => theme[bd]};
   border-radius: 1rem;
 
   width: 7.96rem;
