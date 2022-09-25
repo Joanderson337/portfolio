@@ -63,4 +63,9 @@ body{
   border-radius: 20px;
   border: 3px solid green;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }}
 `

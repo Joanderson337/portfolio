@@ -16,7 +16,9 @@ interface ICard {
 export function Card({ icon, title, descripton, bg, bd }: ICard) {
   return (
     <Container bd={bd}>
-      <Wrapper bg={bg}>{icon}</Wrapper>
+      <Wrapper bg={bg}>
+        <img src={icon} alt="" />
+      </Wrapper>
       <WrapperS>
         <TitleCard>{title}</TitleCard>
         <DescriptonCard>{descripton}</DescriptonCard>

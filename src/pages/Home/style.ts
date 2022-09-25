@@ -40,6 +40,16 @@ export const Wrapper = styled.div`
     position: relative;
     top: -5rem;
   }
+  @media (max-width: 1115px) {
+    > svg {
+      max-width: 380px;
+    }
+  }
+  @media (max-width: 965px) {
+    > svg {
+      display: none;
+    }
+  }
 `
 export const About = styled.div`
   grid-area: about;
@@ -59,6 +69,22 @@ export const About = styled.div`
       display: flex;
       flex-direction: column;
       gap: 20rem;
+    }
+  }
+
+  @media (max-width: 1115px) {
+    > svg {
+      max-width: 280px;
+    }
+    > section {
+      .aboutText {
+        gap: 7rem;
+      }
+    }
+  }
+  @media (max-width: 965px) {
+    > svg {
+      display: none;
     }
   }
 `

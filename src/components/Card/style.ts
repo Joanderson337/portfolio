@@ -33,6 +33,9 @@ export const Wrapper = styled.div<IWrapper>`
   display: flex;
   align-items: center;
   justify-content: center;
+  > img {
+    max-width: 4.8rem;
+  }
 `
 export const WrapperS = styled.div`
   position: absolute;
