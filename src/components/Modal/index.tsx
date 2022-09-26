@@ -7,7 +7,7 @@ import { Linkedin } from '../Linkedin'
 import { Container } from './styled'
 import './styled.css'
 
-export function Modals() {
+export function ModalMobile() {
   const [modalOpen, setModalOpen] = useState(false)
   function closeModal() {
     setModalOpen(false)

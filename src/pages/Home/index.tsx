@@ -2,7 +2,8 @@ import { Frame } from '../../assets/Frame'
 import { PhotoPerfil } from '../../assets/PhotoPerfil'
 import { Button } from '../../components/Button'
 import { Description } from '../../components/Descripton'
-import { Modals } from '../../components/Modal'
+import { HeaderDesk } from '../../components/HeaderDesk'
+import { ModalMobile } from '../../components/Modal'
 import { TagTitle } from '../../components/TagTitle'
 import { Text } from '../../components/Text'
 import { Cards } from './components/Cards'
@@ -12,7 +13,12 @@ export function Home() {
   return (
     <Container>
       <HeaderC>
-        <Modals />
+        <div className="mobile">
+          <ModalMobile />
+        </div>
+        <div className="desk">
+          <HeaderDesk />
+        </div>
       </HeaderC>
       <Wrapper>
         <section>

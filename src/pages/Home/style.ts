@@ -13,9 +13,22 @@ export const Container = styled.div`
 `
 export const HeaderC = styled.div`
   grid-area: header;
-  display: flex;
-  align-items: center;
-  margin-right: 4rem;
+  .mobile {
+    display: none;
+    align-items: center;
+    margin: 4rem;
+  }
+  .desk {
+    margin: 4rem;
+  }
+  @media (max-width: 768px) {
+    .mobile {
+      display: flex;
+    }
+    .desk {
+      display: none;
+    }
+  }
 `
 
 export const Wrapper = styled.div`
