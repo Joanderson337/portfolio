@@ -39,4 +39,12 @@ export const mockCard = [
     descripton:
       'React. js é, portanto, uma biblioteca de JavaScript, open source, utilizada para construir user interfaces, nomeadas para aplicações de página única.',
   },
+  {
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+    bg: 'BG_CARD_GIT',
+    bd: 'BD_CARD_GIT',
+    title: 'Figma',
+    descripton:
+      'Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.',
+  },
 ]

@@ -27,7 +27,7 @@ export function Home() {
             size={18}
             cl={'WHILE_100'}
             weight={400}
-            sizeW={10}
+            sizeW={14}
           />
           <Text
             titleText={'Joanderson'}
@@ -42,7 +42,7 @@ export function Home() {
               size={18}
               cl={'GREEN_200'}
               weight={900}
-              sizeW={10}
+              sizeW={14}
             />
             <Description
               descriptonText={
@@ -89,7 +89,7 @@ export function Home() {
             size={36}
             cl={'WHILE_100'}
             weight={900}
-            sizeW={10}
+            sizeW={14}
           />
         </div>
         <section className="cards">
@@ -98,6 +98,14 @@ export function Home() {
           </div>
         </section>
       </Knowledge>
+      {/* <Project>
+        <div>
+          <Background />
+          <section>
+            <Tags dataTags={mockTag} />
+          </section>
+        </div>
+      </Project> */}
     </Container>
   )
 }

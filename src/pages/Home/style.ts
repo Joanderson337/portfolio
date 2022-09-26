@@ -8,7 +8,8 @@ export const Container = styled.div`
     'header'
     'main'
     'about'
-    'knowledge';
+    'knowledge'
+    'project';
   grid-template-rows: 120px 1fr 1fr 1fr;
 `
 export const HeaderC = styled.div`
@@ -143,3 +144,30 @@ export const Knowledge = styled.a`
     }
   }
 `
+// export const Project = styled.div`
+//   grid-area: project;
+
+//   > div {
+//     width: 100%;
+//     max-width: 87rem;
+//     height: 55.1rem;
+//     background: red;
+//     border-radius: 10px;
+//     margin: 0 auto 5rem auto;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 39px;
+
+//     > img {
+//       max-width: 870px;
+//       height: 350px;
+//       object-fit: cover;
+//     }
+
+//     section {
+//       display: flex;
+//       gap: 20px;
+//       margin-left: 44px;
+//     }
+//   }
+// `

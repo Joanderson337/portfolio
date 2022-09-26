@@ -10,7 +10,4 @@ export const TextTag = styled.strong`
   font-size: 1.8rem;
   line-height: 144.69%;
   color: ${({ theme }) => theme.GREEN_200};
-  @media (max-width: 568px) {
-    font-size: 87.5%;
-  }
 `
