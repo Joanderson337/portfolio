@@ -35,7 +35,11 @@ export function ModalMobile() {
                 link={'https://www.linkedin.com/in/joandersonsilva337/'}
                 size={34}
               />
-              <Button titleBtn={'Home'} size={80} link={''} />
+              <Button
+                titleBtn={'Contato'}
+                size={80}
+                link={'https://api.whatsapp.com/send?phone=5581991431834'}
+              />
             </div>
           </section>
         </Modal>
