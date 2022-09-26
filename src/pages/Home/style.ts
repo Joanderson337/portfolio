@@ -13,7 +13,9 @@ export const Container = styled.div`
 `
 export const HeaderC = styled.div`
   grid-area: header;
-  margin: 6.6rem 14.2rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 `
 
 export const Wrapper = styled.div`

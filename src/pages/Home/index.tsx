@@ -2,6 +2,7 @@ import { Frame } from '../../assets/Frame'
 import { PhotoPerfil } from '../../assets/PhotoPerfil'
 import { Button } from '../../components/Button'
 import { Description } from '../../components/Descripton'
+import { Modals } from '../../components/Modal'
 import { TagTitle } from '../../components/TagTitle'
 import { Text } from '../../components/Text'
 import { Cards } from './components/Cards'
@@ -10,7 +11,9 @@ import { Container, HeaderC, Wrapper, About, Knowledge } from './style'
 export function Home() {
   return (
     <Container>
-      <HeaderC></HeaderC>
+      <HeaderC>
+        <Modals />
+      </HeaderC>
       <Wrapper>
         <section>
           <Text
