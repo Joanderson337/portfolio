@@ -12,6 +12,7 @@
 }
 .ReactModal__Content--after-open {
   background: rgb(114 95 114);
+  overflow: hidden;
 }
 
 .close{
@@ -27,5 +28,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
 }

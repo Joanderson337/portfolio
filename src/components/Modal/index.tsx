@@ -14,8 +14,8 @@ export function Modals() {
   }
   return (
     <Container>
-      <button onClick={() => setModalOpen(true)}>
-        <ListDashes size={32} />
+      <button className="open" onClick={() => setModalOpen(true)}>
+        <ListDashes size={32} color={'#FFFFF0'} />
       </button>
       <div>
         <Modal
@@ -26,7 +26,7 @@ export function Modals() {
           <section>
             <div className="close">
               <button onClick={() => setModalOpen(false)}>
-                <X size={32} color={'#FFFFF0'} />
+                <X size={22} color={'#FFFFF0'} />
               </button>
             </div>
             <div className="icons">

@@ -15,7 +15,7 @@ export const HeaderC = styled.div`
   grid-area: header;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  margin-right: 4rem;
 `
 
 export const Wrapper = styled.div`
@@ -102,7 +102,7 @@ export const Knowledge = styled.a`
   flex-direction: column;
   gap: 12.2rem;
   @media (max-width: 568px) {
-    gap: 4.2rem;
+    gap: 8.2rem;
   }
 
   .knowledgeTag {
