@@ -5,12 +5,13 @@ interface ITitle {
   size: number
   cl: string
   weight: number
+  sizeW: number
 }
 
-export function Text({ titleText, size, cl, weight }: ITitle) {
+export function Text({ titleText, size, cl, weight, sizeW }: ITitle) {
   return (
     <>
-      <TextS weight={weight} size={size} cl={cl}>
+      <TextS sizeW={sizeW} weight={weight} size={size} cl={cl}>
         {titleText}
       </TextS>
     </>

@@ -21,12 +21,14 @@ export function Home() {
             size={18}
             cl={'WHILE_100'}
             weight={400}
+            sizeW={10}
           />
           <Text
             titleText={'Joanderson'}
             size={72}
             cl={'WHILE_100'}
             weight={900}
+            sizeW={40}
           />
           <div>
             <Text
@@ -34,6 +36,7 @@ export function Home() {
               size={18}
               cl={'GREEN_200'}
               weight={900}
+              sizeW={10}
             />
             <Description
               descriptonText={
@@ -54,6 +57,7 @@ export function Home() {
             size={36}
             cl={'WHILE_100'}
             weight={900}
+            sizeW={40}
           />
           <div className="aboutText">
             <Description
@@ -79,6 +83,7 @@ export function Home() {
             size={36}
             cl={'WHILE_100'}
             weight={900}
+            sizeW={10}
           />
         </div>
         <section className="cards">

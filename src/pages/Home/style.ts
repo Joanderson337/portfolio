@@ -32,6 +32,9 @@ export const Wrapper = styled.div`
     flex-direction: column;
     gap: 2.4rem;
     justify-content: center;
+    @media (max-width: 568px) {
+      margin-left: 12px;
+    }
 
     > div {
       margin-bottom: 1.8rem;
@@ -66,6 +69,9 @@ export const About = styled.div`
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
+    @media (max-width: 568px) {
+      margin-left: 12px;
+    }
 
     .aboutText {
       display: flex;
@@ -95,12 +101,18 @@ export const Knowledge = styled.a`
   display: flex;
   flex-direction: column;
   gap: 12.2rem;
+  @media (max-width: 568px) {
+    gap: 4.2rem;
+  }
 
   .knowledgeTag {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 126px;
+    @media (max-width: 568px) {
+      margin-top: 16px;
+    }
   }
 
   .cards {

@@ -68,4 +68,9 @@ body{
   html {
     font-size: 87.5%;
   }}
+
+  @media (max-width: 568px) {
+  html {
+    font-size: 57.5%;
+  }}
 `
