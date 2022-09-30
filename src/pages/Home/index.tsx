@@ -75,7 +75,7 @@ export function Home() {
               titleBtn={'Download CV'}
               size={179}
               link={
-                'https://drive.google.com/file/d/1j_xSnDhpqCoGMoCFLTIT6pxvh-Ggdyp-/view?usp=sharing'
+                ''
               }
             />
           </div>
