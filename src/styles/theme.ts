@@ -23,4 +23,7 @@ export const defaultTheme = {
 
   BG_CARD_GIT: 'rgba(3, 9, 125, 0.15)',
   BD_CARD_GIT: ' #44FF',
+
+  BG_POKE: '#F0E68C',
+  BD_POKE: '#FFFF00',
 }

@@ -7,7 +7,8 @@ import { ModalMobile } from '../../components/Modal'
 import { TagTitle } from '../../components/TagTitle'
 import { Text } from '../../components/Text'
 import { Cards } from './components/Cards'
-import { Container, HeaderC, Wrapper, About, Knowledge } from './style'
+import { CardsProjects } from './components/CardsProject'
+import { Container, HeaderC, Wrapper, About, Knowledge, Project } from './style'
 
 export function Home() {
   return (
@@ -92,14 +93,23 @@ export function Home() {
           </div>
         </section>
       </Knowledge>
-      {/* <Project>
-        <div>
-          <Background />
-          <section>
-            <Tags dataTags={mockTag} />
-          </section>
+      <Project>
+        <div className="knowledgeTag">
+          <TagTitle titleTag={'Conheça alguns'} />
+          <Text
+            titleText={'Projetos desenvolvido'}
+            size={36}
+            cl={'WHILE_100'}
+            weight={900}
+            sizeW={14}
+          />
         </div>
-      </Project> */}
+        <section className="cards">
+          <div>
+            <CardsProjects />
+          </div>
+        </section>
+      </Project>
     </Container>
   )
 }
