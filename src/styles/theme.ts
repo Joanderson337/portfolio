@@ -26,4 +26,10 @@ export const defaultTheme = {
 
   BG_POKE: '#F0E68C',
   BD_POKE: '#FFFF00',
+
+  BG_NEON: '#00BFFF',
+  BD_NEON: '#1E90FF',
+
+  BG_RICK: '#A9A9A9',
+  BD_RICK: '#696969',
 }
