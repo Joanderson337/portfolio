@@ -95,7 +95,7 @@ export function Home() {
       </Knowledge>
       <Project>
         <div className="knowledgeTag">
-          <TagTitle titleTag={'Conheça alguns'} />
+          <TagTitle titleTag={'Conheça alguns dos meus'} />
           <Text
             titleText={'Projetos desenvolvido'}
             size={36}
