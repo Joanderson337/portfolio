@@ -16,6 +16,14 @@ export const mockCard = [
       'O CSS é uma linguagem de folhas de estilos que é utilizada para definir como os documentos escritos na linguagem de marcação HTML.',
   },
   {
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
+    bg: 'BG_CARD_GIT',
+    bd: 'BD_CARD_GIT',
+    title: 'Sass',
+    descripton:
+      'Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Catlin e desenvolvida por Natalie Weizenbaum.',
+  },
+  {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
     bg: 'BG_CARD_GIT',
     bd: 'BD_CARD_GIT',
@@ -46,5 +54,21 @@ export const mockCard = [
     title: 'Figma',
     descripton:
       'Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.',
+  },
+  {
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg',
+    bg: 'BG_CARD_GIT',
+    bd: 'BD_CARD_GIT',
+    title: 'Firebase',
+    descripton:
+      'O Firebase oferece uma documentação detalhada e SDKs multiplataforma para ajudar a criar e entregar apps Android, iOS, Web, C++ e Unity.',
+  },
+  {
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
+    bg: 'BG_CARD_RE',
+    bd: 'BD_CARD_RE',
+    title: 'Next.js',
+    descripton:
+      'Next.js é uma estrutura da web de desenvolvimento front-end React que permite funcionalidades como renderização do lado do servidor.',
   },
 ]
