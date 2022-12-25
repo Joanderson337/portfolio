@@ -71,13 +71,7 @@ export function Home() {
                 'Olá, sou entusiasmado com novos desafios, o importante é fazer o que se gosta. Atualmente estudante de programação, área na qual estou procurando novos conhecimentos a cada dia.'
               }
             />
-            <Button
-              titleBtn={'Download CV'}
-              size={179}
-              link={
-                ''
-              }
-            />
+            <Button titleBtn={'Download CV'} size={179} link={''} />
           </div>
         </section>
       </About>
