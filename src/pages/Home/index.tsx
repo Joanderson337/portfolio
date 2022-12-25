@@ -97,7 +97,7 @@ export function Home() {
         <div className="knowledgeTag">
           <TagTitle titleTag={'Conheça alguns dos meus'} />
           <Text
-            titleText={'Projetos desenvolvido'}
+            titleText={'Projetos desenvolvidos'}
             size={36}
             cl={'WHILE_100'}
             weight={900}
