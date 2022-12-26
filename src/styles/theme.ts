@@ -24,6 +24,18 @@ export const defaultTheme = {
   BG_CARD_GIT: 'rgba(3, 9, 125, 0.15)',
   BD_CARD_GIT: ' #44FF',
 
+  BG_SASS: '#F5A9F2',
+  BD_SASS: '#FE2EF7',
+
+  BG_FIRE: '#F3E2A9',
+  BD_FIRE: '#F5DA81',
+
+  BG_NJ: '#084B8A',
+  BD_NJ: '#0B2161',
+
+  BG_FG: '#F5BCA9',
+  BD_FG: '#F79F81',
+
   BG_POKE: '#F0E68C',
   BD_POKE: '#FFFF00',
 
@@ -38,7 +50,7 @@ export const defaultTheme = {
 
   BG_BZ: '#1C1C1C',
   BD_BZ: '#610B0B',
-  CT_BZ: '#B40404',
+  CT_BZ: '#A9A9A9',
 
   BG_FT: '#708090',
   BD_FT: '#778899',

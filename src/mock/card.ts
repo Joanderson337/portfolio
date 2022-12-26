@@ -17,8 +17,8 @@ export const mockCard = [
   },
   {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
-    bg: 'BG_CARD_GIT',
-    bd: 'BD_CARD_GIT',
+    bg: 'BG_SASS',
+    bd: 'BD_SASS',
     title: 'Sass',
     descripton:
       'Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Catlin e desenvolvida por Natalie Weizenbaum.',
@@ -43,30 +43,30 @@ export const mockCard = [
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
     bg: 'BG_CARD_RE',
     bd: 'BD_CARD_RE',
-    title: 'React',
+    title: 'ReactJS',
     descripton:
       'React. js é, portanto, uma biblioteca de JavaScript, open source, utilizada para construir user interfaces, nomeadas para aplicações de página única.',
   },
   {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
-    bg: 'BG_CARD_GIT',
-    bd: 'BD_CARD_GIT',
+    bg: 'BG_FG',
+    bd: 'BD_FG',
     title: 'Figma',
     descripton:
       'Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.',
   },
   {
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg',
-    bg: 'BG_CARD_GIT',
-    bd: 'BD_CARD_GIT',
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+    bg: 'BG_FIRE',
+    bd: 'BD_FIRE',
     title: 'Firebase',
     descripton:
       'O Firebase oferece uma documentação detalhada e SDKs multiplataforma para ajudar a criar e entregar apps Android, iOS, Web, C++ e Unity.',
   },
   {
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
-    bg: 'BG_CARD_RE',
-    bd: 'BD_CARD_RE',
+    bg: 'BG_NJ',
+    bd: 'BD_NJ',
     title: 'Next.js',
     descripton:
       'Next.js é uma estrutura da web de desenvolvimento front-end React que permite funcionalidades como renderização do lado do servidor.',
