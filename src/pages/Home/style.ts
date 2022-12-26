@@ -132,7 +132,7 @@ export const Knowledge = styled.a`
   flex-direction: column;
   gap: 12.2rem;
   @media (max-width: 568px) {
-    gap: 8.2rem;
+    gap: 1.2rem;
   }
 
   .knowledgeTag {

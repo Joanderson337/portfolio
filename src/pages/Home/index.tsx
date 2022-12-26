@@ -101,7 +101,7 @@ export function Home() {
             size={36}
             cl={'WHILE_100'}
             weight={900}
-            sizeW={14}
+            sizeW={16}
           />
         </div>
         <section className="cards">
