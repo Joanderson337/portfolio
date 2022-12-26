@@ -68,7 +68,13 @@ export function Home() {
               }
             />
           </div>
-          <Button titleBtn={'Sobre mim'} size={179} link={''} />
+          <Button
+            titleBtn={'Sobre mim'}
+            size={179}
+            link={
+              'https://drive.google.com/file/d/1mxf02hznEMXZspIDt1oHvRJAa7M5ZMZE/view?usp=sharing'
+            }
+          />
         </section>
         <Frame />
       </Wrapper>
@@ -89,7 +95,13 @@ export function Home() {
                 'Olá, sou entusiasmado com novos desafios, o importante é fazer o que se gosta. Atualmente estudante de programação, área na qual estou procurando novos conhecimentos a cada dia.'
               }
             />
-            <Button titleBtn={'Download CV'} size={179} link={''} />
+            <Button
+              titleBtn={'Download CV'}
+              size={179}
+              link={
+                'https://drive.google.com/file/d/1mxf02hznEMXZspIDt1oHvRJAa7M5ZMZE/view?usp=sharing'
+              }
+            />
           </div>
         </section>
       </About>
