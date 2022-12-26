@@ -8,7 +8,7 @@ interface IBtn {
 
 export function Button({ titleBtn, size, link, ...rest }: IBtn) {
   return (
-    <Container href={link} size={size} {...rest} type="button" target="_blank">
+    <Container href={link} size={size} {...rest} type="button">
       <TitleBtn>{titleBtn}</TitleBtn>
     </Container>
   )

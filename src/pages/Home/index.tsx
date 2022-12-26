@@ -72,7 +72,7 @@ export function Home() {
             titleBtn={'Sobre mim'}
             size={179}
             link={
-              'https://drive.google.com/file/d/1mxf02hznEMXZspIDt1oHvRJAa7M5ZMZE/view?usp=sharing'
+              'https://drive.google.com/file/d/1rdZ4V-F_FsthWQzPYJujy0PsEKYJhAu1/view?usp=sharing'
             }
           />
         </section>
@@ -99,7 +99,7 @@ export function Home() {
               titleBtn={'Download CV'}
               size={179}
               link={
-                'https://drive.google.com/file/d/1mxf02hznEMXZspIDt1oHvRJAa7M5ZMZE/view?usp=sharing'
+                'https://drive.google.com/file/d/1rdZ4V-F_FsthWQzPYJujy0PsEKYJhAu1/view?usp=sharing'
               }
             />
           </div>
