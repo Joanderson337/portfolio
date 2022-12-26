@@ -2,7 +2,8 @@ import { Frame } from '../../assets/Frame'
 import { PhotoPerfil } from '../../assets/PhotoPerfil'
 import { Button } from '../../components/Button'
 import { Description } from '../../components/Descripton'
-import { HeaderDesk } from '../../components/HeaderDesk'
+import { Github } from '../../components/Github'
+import { Linkedin } from '../../components/Linkedin'
 import { ModalMobile } from '../../components/Modal'
 import { TagTitle } from '../../components/TagTitle'
 import { Text } from '../../components/Text'
@@ -18,11 +19,27 @@ export function Home() {
           <ModalMobile />
         </div>
         <div className="desk">
-          <HeaderDesk />
+          <nav>
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <Button
+              titleBtn={'Contato'}
+              size={82}
+              link={'https://api.whatsapp.com/send?phone=5581991431834'}
+            />
+          </nav>
+          <div>
+            <Github link={'https://github.com/Joanderson337'} size={32} />
+            <Linkedin
+              link={'https://www.linkedin.com/in/joandersonsilva337/'}
+              size={32}
+            />
+          </div>
         </div>
       </HeaderC>
       <Wrapper>
-        <section>
+        <section id="home">
           <Text
             titleText={'Olá mundo! 👋 Meu nome é '}
             size={18}
@@ -57,7 +74,7 @@ export function Home() {
       </Wrapper>
       <About>
         <PhotoPerfil />
-        <section>
+        <section id="sobre">
           <TagTitle titleTag={'Quem sou eu '} />
           <Text
             titleText={'Sobre mim'}
@@ -94,7 +111,7 @@ export function Home() {
         </section>
       </Knowledge>
       <Project>
-        <div className="knowledgeTag">
+        <div id="projetos" className="knowledgeTag">
           <TagTitle titleTag={'Conheça alguns dos meus'} />
           <Text
             titleText={'Projetos desenvolvidos'}
