@@ -8,6 +8,10 @@ type IWrapper = {
   bg: string
 }
 
+type IDescriptonCard2 = {
+  ct: string
+}
+
 export const Container = styled.a<IContainer>`
   position: relative;
   width: 100%;
@@ -58,4 +62,12 @@ export const DescriptonCard = styled(TitleCard)`
   font-size: 1.5rem;
   width: 100%;
   max-width: 26.7rem;
+`
+
+export const DescriptonCard2 = styled(TitleCard)<IDescriptonCard2>`
+  font-weight: 500;
+  font-size: 1.5rem;
+  width: 100%;
+  max-width: 26.7rem;
+  color: ${({ theme, ct }: any) => theme[ct]};
 `

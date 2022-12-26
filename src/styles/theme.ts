@@ -32,4 +32,14 @@ export const defaultTheme = {
 
   BG_RICK: '#A9A9A9',
   BD_RICK: '#696969',
+
+  BG_MARVEL: '#9370DB',
+  BD_MARVEL: '#8A2BE2',
+
+  BG_BZ: '#1C1C1C',
+  BD_BZ: '#610B0B',
+  CT_BZ: '#B40404',
+
+  BG_FT: '#708090',
+  BD_FT: '#778899',
 }

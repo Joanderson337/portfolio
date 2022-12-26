@@ -4,12 +4,14 @@ import {
   WrapperS,
   TitleCard,
   DescriptonCard,
+  DescriptonCard2,
 } from './style'
 
 interface ICard {
   icon: any
   bg: string
   bd: string
+  ct: string
   title: string
   descripton: string
   link: string
@@ -22,6 +24,7 @@ export function CardProject({
   descripton,
   bg,
   bd,
+  ct,
   link,
   tecnologia,
   visualizar,
@@ -35,7 +38,7 @@ export function CardProject({
         <TitleCard>{title}</TitleCard>
         <DescriptonCard>{descripton}</DescriptonCard>
         <DescriptonCard>{tecnologia}</DescriptonCard>
-        <DescriptonCard>{visualizar}</DescriptonCard>
+        <DescriptonCard2 ct={ct}>{visualizar}</DescriptonCard2>
       </WrapperS>
     </Container>
   )

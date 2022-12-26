@@ -11,6 +11,7 @@ export function CardsProjects() {
           icon={data.icon}
           bg={data.bg}
           bd={data.bd}
+          ct={data.ct}
           title={data.title}
           tecnologia={data.tecnologia}
           descripton={data.descripton}
