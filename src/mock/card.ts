@@ -71,4 +71,12 @@ export const mockCard = [
     descripton:
       'Next.js é uma estrutura da web de desenvolvimento front-end React que permite funcionalidades como renderização do lado do servidor.',
   },
+  {
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
+    bg: 'BG_CARD_RE',
+    bd: 'BD_CARD_RE',
+    title: 'React Native',
+    descripton:
+      'React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas Android e iOS',
+  },
 ]
