@@ -85,7 +85,7 @@ export const mockCardProject = [
     bd: 'BD_FT',
     ct: 'BG_FT',
     title: 'Imhere',
-    link: 'https://github.com/Joanderson337/ToDoList---React-Native',
+    link: 'https://github.com/Joanderson337/imhere-React-Native',
     descripton: 'Aplicação Mobile: imhere',
     tecnologia: 'Tecnologias utilizadas: React-Native',
     visualizar: 'Clique para visualizar a aplicação ',
