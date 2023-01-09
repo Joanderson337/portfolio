@@ -64,7 +64,7 @@ export function Home() {
             />
             <Description
               descriptonText={
-                'Programador Front-end com foco no ecossistema do JavaScript. Atualmente cursando tecnólogo Análise e Desenvolvimento de Sistemas.'
+                'Programador Front-end com foco no ecossistema do JavaScript.'
               }
             />
           </div>
