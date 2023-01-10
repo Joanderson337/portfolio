@@ -92,7 +92,7 @@ export function Home() {
           <div className="aboutText">
             <Description
               descriptonText={
-                'Olá, sou entusiasmado com novos desafios, o importante é fazer o que se gosta. Atualmente estudante de programação, área na qual estou procurando novos conhecimentos a cada dia.'
+                'Olá, sou entusiasmado com novos desafios, o importante é fazer o que se gosta.'
               }
             />
             <Button
