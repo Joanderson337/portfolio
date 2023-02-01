@@ -64,7 +64,7 @@ export function Home() {
             />
             <Description
               descriptonText={
-                'Programador Front-end com foco no ecossistema do JavaScript.'
+                'Programador Front-end.'
               }
             />
           </div>
@@ -99,7 +99,7 @@ export function Home() {
               titleBtn={'Download CV'}
               size={179}
               link={
-                'https://drive.google.com/file/d/1FN74tJh70Y3pZnD5qHf8a5IQYfS1XjPG/view?usp=sharing'
+                'https://drive.google.com/file/d/1XX_5lLJwfAjij2uUvmbivjAkoHKCzfDw/view?usp=sharing'
               }
             />
           </div>
